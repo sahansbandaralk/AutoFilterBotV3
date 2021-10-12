@@ -11,10 +11,10 @@ from .Channel import (
 )
 
 HELP = """
-Basic Commads
+**Basic Commads
 
-/start :- check am Alive
-
+/start :- check am Alive**
+**
 Bot Owner Only
 /broadcast Replay Any Message or Media
 /stats user Status
@@ -24,18 +24,9 @@ Bot Owner Only
 /total How Many Files Added In Database
 /logger  Get Logs
 /delete Delete File From Database
-
+**
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
-    
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
-
-➥ Language : Python3
-
-➥ Library : Pyrogram Asyncio 1.13.0
-
-➥ Tutorial : [Click Me](https://youtu.be/5hnYOKBzyi8)
+<b>Creator : @SandaruwanBandara </b>\n <b>Language :</b> <code>Python3</code>\n <b>Bot Channel : @SECLK </b>\n <b>Main Channel : @NetflixMovieslk</b>
 """
