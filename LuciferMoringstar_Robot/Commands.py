@@ -85,7 +85,8 @@ async def start(bot, message):
                 buttons = [
                     [
                  
-                        InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK')
+                         InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK'),
+                     InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/NetflixMovieslk')
                     ]
                     ]
                 await bot.send_cached_media(
