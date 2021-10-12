@@ -53,7 +53,7 @@ async def filter(client, message):
     if 2 < len(message.text) < 100:    
         btn = []
         search = message.text
-        mo_tech_yt = f"** 🎬 Title : {search}**\n ** ❤️ by : {message.chat.title}**\n **ᴍᴏʀᴇ ʙᴏᴛꜱ : @SECLK**"
+        mo_tech_yt = f"**🎬 Title : {search}**\n  **❤️ by : {message.chat.title}**\n  **ᴍᴏʀᴇ ʙᴏᴛꜱ : @SECLK **"
         files = await get_filter_results(query=search)
         if files:
             for file in files:
@@ -115,7 +115,7 @@ async def group(client, message):
     if 2 < len(message.text) < 50:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**🎬 Title : {search}**\n **❤️ by : {message.chat.title}**\n **ᴍᴏʀᴇ ʙᴏᴛꜱ : @SECLK**"
+        mo_tech_yt = f"**🎬 Title : {search}**\n  **❤️ by : {message.chat.title}**\n  **ᴍᴏʀᴇ ʙᴏᴛꜱ : @SECLK **"
         nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
@@ -288,6 +288,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                      InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK'),
                      InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/NetflixMovieslk')
+
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -310,8 +311,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                         InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK'),
-                         InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/NetflixMovieslk')
+                         InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ 🔎', switch_inline_query_current_chat=query),
+                         InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK')
+
                     ]
                     ]
                 
@@ -342,8 +344,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                         InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK'),
-                         InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/NetflixMovieslk')
+                     InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ 🔎', switch_inline_query_current_chat=query),
+                     InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK')
+
                     ]
                     ]
                 
