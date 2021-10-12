@@ -84,8 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ 🔎', switch_inline_query_current_chat=query),
-                        InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK')
+                        InlineKeyboardButton('🎖 DEPLOY YOURS 🎖', url=f'{TUTORIAL}')
                     ]
                     ]
                 await bot.send_cached_media(
