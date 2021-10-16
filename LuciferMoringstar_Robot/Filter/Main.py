@@ -53,7 +53,7 @@ async def filter(client, message):
     if 2 < len(message.text) < 100:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**✅ ᴡᴇ ꜰᴏᴜɴᴅ ɪᴛ 😌❤️**\n\n **🎬 Title : {search}**\n **Group : {message.chat.title} **\n\n**★ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ғɪʟᴇs **\n\n **©️ <a href='https://t.me/SECLK'>ꜱᴇᴄ ʙᴏᴛs</a>**"
+        mo_tech_yt = f"**✅ ᴡᴇ ꜰᴏᴜɴᴅ ɪᴛ 😌❤️**\n\n **Title : {search}**\n **Group : {message.chat.title} **\n\n**★ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ғɪʟᴇs **\n\n **©️ <a href='https://t.me/SECLK'>ꜱᴇᴄ ʙᴏᴛs</a>**"
         files = await get_filter_results(query=search)
         if files:
             for file in files:
@@ -115,7 +115,7 @@ async def group(client, message):
     if 2 < len(message.text) < 50:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**✅ ᴡᴇ ꜰᴏᴜɴᴅ ɪᴛ 😌❤️**\n\n **🎬 Title : {search}**\n **Group : {message.chat.title} **\n\n**★ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ғɪʟᴇs **\n\n **©️ <a href='https://t.me/SECLK'>ꜱᴇᴄ ʙᴏᴛs</a>**"
+        mo_tech_yt = f"**✅ ᴡᴇ ꜰᴏᴜɴᴅ ɪᴛ 😌❤️**\n\n **Title : {search}**\n **Group : {message.chat.title} **\n\n**★ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ғɪʟᴇs **\n\n **©️ <a href='https://t.me/SECLK'>ꜱᴇᴄ ʙᴏᴛs</a>**"
         nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
@@ -274,7 +274,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(buttons)
                 )
                 return
-        elif query.data == "📕 Help":
+        elif query.data == "help":
             buttons = [
                 [
                      InlineKeyboardButton('🤖 ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK'),
@@ -283,7 +283,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
-        elif query.data == "📕 About Me":
+        elif query.data == "about":
             buttons = [
                 [
                      InlineKeyboardButton('🤖 ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK'),
