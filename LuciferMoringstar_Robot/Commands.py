@@ -86,7 +86,7 @@ async def start(bot, message):
                     [
                  
                          InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK'),
-                     InlineKeyboardButton('𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍', switch_inline_query_current_chat='')
+                     InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ 🔎', switch_inline_query_current_chat='')
                     ]
                     ]
                 await bot.send_cached_media(
