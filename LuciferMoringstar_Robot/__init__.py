@@ -28,5 +28,5 @@ Bot Owner Only
 """
 
 ABOUT = """
-<b>○ ʙᴏᴛ ɴᴀᴍᴇ : <a href='https://t.me/SECLK'>ꜱᴇᴄ ᴘʀᴏ ꜰɪʟᴛᴇʀ </a></b>\n<b>○ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/SandaruwanBandara'>👤 ᴛʜɪꜱ ᴘᴇʀꜱᴏɴ</a></b>\n<b>○ ʟᴀɴɢᴜᴀɢᴇ :</b> <code>Python3</code>\n<b>○ ғʀᴀᴍᴇᴡᴏʀᴋ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ </a></b>\n<b>○ ᴠᴇʀsɪᴏɴ : 2.4.9</b>\n○ <b>sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :🔐</b>\n<b>○ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ :<b><b><a href='https://t.me/SECLK'>ꜱᴇᴄ ʙᴏᴛᴢ</a></b> 
+<b>○ ʙᴏᴛ ɴᴀᴍᴇ : <a href='https://t.me/SECLK'>ꜱᴇᴄ ᴘʀᴏ ꜰɪʟᴛᴇʀ </a></b>\n<b>○ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/SandaruwanBandara'>👤 ᴛʜɪꜱ ᴘᴇʀꜱᴏɴ</a></b>\n<b>○ ʟᴀɴɢᴜᴀɢᴇ :</b> <code>Python3</code>\n<b>○ ғʀᴀᴍᴇᴡᴏʀᴋ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ </a></b>\n<b>○ ᴠᴇʀsɪᴏɴ : 2.4.9</b>\n○ <b>sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : 🔐</b>\n<b>○ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ : </b><b><a href='https://t.me/SECLK'>ꜱᴇᴄ ʙᴏᴛᴢ</a></b> 
 """
