@@ -28,5 +28,6 @@ Bot Owner Only
 """
 
 ABOUT = """
-<b>Creator : @SandaruwanBandara </b>\n <b>Language :</b> <code>Python3</code>\n <b>Bot Channel : @SECLK </b>\n <b>Main Channel : @NetflixMovieslk</b>
+<b>○ ʙᴏᴛ ɴᴀᴍᴇ : <a href='https://t.me/SECLK'>ꜱᴇᴄ ᴘʀᴏ ꜰɪʟᴛᴇʀ </a></b>\n<b>○ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/SandaruwanBandara'>👤 ᴛʜɪꜱ ᴘᴇʀꜱᴏɴ</a></b>\n○ ʟᴀɴɢᴜᴀɢᴇ : <code>Python3</code>\n
+<b>○ ғʀᴀᴍᴇᴡᴏʀᴋ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ </a></b>\n○ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/SECLK'>ꜱᴇᴄ ʙᴏᴛᴢ</a> </b>
 """
