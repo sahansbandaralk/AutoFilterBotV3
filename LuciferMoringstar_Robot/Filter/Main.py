@@ -277,8 +277,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                     InlineKeyboardButton('🤖 ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK'),
-                     InlineKeyboardButton('📣 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/NetflixMovieslk')
+                     InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK'),
+                     InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/NetflixMovieslk')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -286,8 +286,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                     InlineKeyboardButton('🤖 ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK'),
-                     InlineKeyboardButton('📣 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/NetflixMovieslk')
+                     InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK'),
+                     InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/SECL4U')
 
                 ]
                 ]
@@ -345,7 +345,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                      InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ 🔎', switch_inline_query_current_chat=query),
-                     InlineKeyboardButton('🤖 ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK')
+                     InlineKeyboardButton('ᴍᴏʀᴇ ʙᴏᴛꜱ', url='https://t.me/SECLK')
 
                     ]
                     ]
